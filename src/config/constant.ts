@@ -8,10 +8,9 @@ export const LOGIN_SUCCESSFUL = "login successful";
 export const EMAIL_ALREADY_EXISTS = "email was taken";
 export const REGISTER_SUCCESSFUL = "register ruccessfully";
 // url
-export const BASE_URL = "http://localhost:4000"; // http://localhost:4000
-export const LOGIN_URL = BASE_URL + "/login";
-export const REGISTER_URL = BASE_URL + "/register";
-export const HOME = BASE_URL + "/home";
+export const LOGIN_URL = "/login";
+export const REGISTER_URL = "/register";
+export const HOME = "/home";
 export const HOME_GET = "/";
 export const HOME_ADD = "/add";
 export const HOME_UPDATE = "/put";
