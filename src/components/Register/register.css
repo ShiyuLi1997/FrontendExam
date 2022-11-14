@@ -1,0 +1,17 @@
+.registerForm {
+	width: "600px";
+	display: "flex";
+	flex-direction: "column";
+}
+.errorMessage {
+	color: "red";
+}
+
+.logoImg {
+	height: auto;
+	width: 100px;
+	position: fixed 0px 0px;
+}
+.vh-100 {
+	overflow-y: hidden;
+}
