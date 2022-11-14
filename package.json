@@ -23,9 +23,9 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "tsc ./src/index.ts",
 		"build": "react-scripts build",
-		"test": "react-scripts test",
+		"dev": "nodemon",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
